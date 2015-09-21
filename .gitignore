@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 .classpath
 .project
 .settings/
+=======
+.classpath
+.project
+.settings/
+>>>>>>> branch 'master' of https://github.com/irion1985/MensHealth.git
 target/
