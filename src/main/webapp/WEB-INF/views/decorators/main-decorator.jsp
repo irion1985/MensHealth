@@ -9,6 +9,11 @@
 <title><sitemesh:write property="title"/></title>
 <sitemesh:write property="head"/>
 <style type="text/css">
+
+	#sidemenu1 {
+		width: 140px;
+	}
+
 	#main {
 		margin-left: 250px !important;
 	}
@@ -19,14 +24,24 @@
 
 <!-- Header -->
 <nav class="w3-topnav w3-margin w3-light-grey">
-<h1><strong>Mens Health</strong></h1>
+<h1><a href="/MensHealth/"><strong>Mens Health</strong></a></h1>
+<a href="#">회사소개</a>
+<a href="#">게시판</a>
+<a href="#">Menu1</a>
+<a href="#">Menu2</a>
+<a href="#">Menu3</a>
+<a href="#" class="w3-right">로그인</a>
+<a href="#" class="w3-right">회원가입</a>
 </nav>
 
 <!-- sidemenu -->
-<nav class="w3-container w3-sidenav w3-margin w3-light-grey">
-	<a href="#">1</a>
-	<a href="#">1</a>
-	<a href="#">1</a>
+<nav id="sidemenu1" class="w3-container w3-sidenav w3-margin w3-padding w3-light-grey">
+	<a href="#">sidemenu</a>
+	<a href="#">sidemenu</a>
+	<a href="#">sidemenu</a>
+	<a href="#">sidemenu</a>
+	<a href="#">sidemenu</a>
+	<a href="#">sidemenu</a>
 </nav>
 
 <section id="main" class="w3-container w3-margin">
