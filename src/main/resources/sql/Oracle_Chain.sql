@@ -12,4 +12,4 @@ ch_address varchar2(80)not null,
 ch_phone varchar2(20)not null
 );
 
-insert into chain values('강남점' , '����� ��Ǳ� ��õ��' , '02)');
+insert into chain values('관악점' , '서울시 관악구 봉천동' , '02)');

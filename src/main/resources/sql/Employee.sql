@@ -57,7 +57,7 @@ ch_address varchar2(80)not null,
 ch_phone varchar2(20)not null
 );
 
-insert into chain values('°ü¾ÇÁ¡' , '¼­¿ï½Ã °ü¾Ç±¸ ºÀÃµµ¿' , '02)');
+insert into chain values('ê´€ì•…ì ' , 'ì„œìš¸ì‹œ ê´€ì•…êµ¬ ë´‰ì²œë™' , '02)');
 
 ---------- free board -----------
 
