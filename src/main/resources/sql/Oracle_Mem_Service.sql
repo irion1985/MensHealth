@@ -7,6 +7,7 @@ drop table mem_service
 
 create table mem_service(
 mem_num int primary key,				-- 내 회원 넘버
+my_start varchar2(40)not null,
 my_remain varchar2(40)not null,			-- 남은 기간(헬스, 프로그램)
 my_attend varchar2(40)not null,         -- 출석 정보
 my_program varchar2(20),				-- 내 프로그램
