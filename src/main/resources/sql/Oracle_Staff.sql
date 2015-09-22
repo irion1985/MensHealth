@@ -13,7 +13,7 @@ st_name varchar2(40)not null,
 st_phone varchar2(20)not null unique,
 st_gender varchar2(10),
 st_birth varchar2(20)not null,
-st_position varchar2(20),
+st_position varchar2(20),				-- 직책 (직원,알바,트레이너 등 구분
 st_regdate date
 );
 
